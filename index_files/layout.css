@@ -242,7 +242,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #f2f8f8; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -471,7 +471,15 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes wordpress {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+  
 }
+
+@-webkit-keyframes wordpress2 {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+
+
+
 @-webkit-keyframes css {
   0%   { width: 0px;  }
   100% { width: 90%;  }
@@ -874,7 +882,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #f8fcfc; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -935,7 +943,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #edf3f3;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -954,7 +962,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #eff5f5;
 	font-size: 13px;
 }
 #message-warning, #message-success {
