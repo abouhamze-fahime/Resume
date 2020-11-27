@@ -382,6 +382,19 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+.bar-expand6 {
+   position: absolute;
+   left: 0;
+   top: 0;
+
+   margin: 0;
+   padding-right: 24px;
+  	background: #4aec0a;
+   display: inline-block;
+  	height: 42px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+}
 
 
 
@@ -399,6 +412,12 @@ ul#nav li.current a { color: #F06000; }
   	width: 20%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
+}
+
+.wordpress2 {
+   width: 20%;
+   -moz-animation: wordpress2 2s ease;
+   -webkit-animation: wordpress2 2s ease;
 }
 .css {
   	width: 90%;
